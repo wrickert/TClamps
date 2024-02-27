@@ -1,25 +1,4 @@
-22434317478493276
-AD
-BGA100_ML-100-1_ADI
-
-ADIS16500AMLZ 
-0
-100
-100
-AD
-BGA100_ML-100-1_ADI-L
-
-ADIS16500AMLZ 
-0
-100
-100
-AD
-BGA100_ML-100-1_ADI-M
-
-ADIS16500AMLZ 
-0
-100
-100
+22880069769869961
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -34,6 +13,580 @@ audio belton reverb
 0
 7
 7
+BadgePiratesFootprint
+5.5uH_coil
+
+
+0
+2
+2
+BadgePiratesFootprint
+5.5uH_coil_F.Silk
+
+
+0
+2
+2
+BadgePiratesFootprint
+100uf_CP_Pad1.50x2.35mm
+Tantalum Capacitor SMD Kemet-B (3528-21 Metric), IPC_7351 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator
+capacitor tantalum
+0
+2
+2
+BadgePiratesFootprint
+2032 Through Hold Holder
+
+
+0
+2
+2
+BadgePiratesFootprint
+AA
+AA Battery Holder, SMD
+
+0
+8
+4
+BadgePiratesFootprint
+ACASA1002S1002P100
+ACAS0612
+Resistor Network
+0
+8
+8
+BadgePiratesFootprint
+AMAMW
+
+
+0
+2
+2
+BadgePiratesFootprint
+BATHLD006SMT - CR2450
+BAT-HLD-006-SMT-1
+Undefined or Miscellaneous
+0
+3
+2
+BadgePiratesFootprint
+Badgelife-SAOv169-BADGE_Side_F.SLK
+Through hole straight IDC box header, 2x03, 2.54mm pitch, double rows
+Through hole IDC box header THT 2x03 2.54mm double row
+0
+6
+6
+BadgePiratesFootprint
+Badgelife-SAOv169-SAO_Side_B.SLK
+Through hole straight IDC box header, 2x03, 2.54mm pitch, double rows
+Through hole IDC box header THT 2x03 2.54mm double row
+0
+6
+6
+BadgePiratesFootprint
+Battery - 14500
+AA Battery Holder, SMD
+
+0
+4
+2
+BadgePiratesFootprint
+BatteryHolder_LINX_BAT-HLD-006-SMT
+2450 Battery Holder
+Undefined or Miscellaneous
+0
+3
+3
+BadgePiratesFootprint
+BatteryHolder_LINX_BAT-HLD-012-SMT
+SMT battery holder for CR1216/1220/1225, https://linxtechnologies.com/wp/wp-content/uploads/bat-hld-012-smt.pdf
+battery holder coin cell cr1216 cr1220 cr1225
+0
+3
+2
+BadgePiratesFootprint
+BatteryHolder_MPD_BC2003_1x2032
+2032 Battery Holder
+BC2003 CR2032 2032 Battery Holder
+0
+3
+2
+BadgePiratesFootprint
+BatteryHolder_MPD_BC2003_1x2032_Fixed
+2032 Battery Holder
+BC2003 CR2032 2032 Battery Holder
+0
+3
+2
+BadgePiratesFootprint
+CD54_IND
+
+
+0
+2
+2
+BadgePiratesFootprint
+CN330N
+Standard SOIC8 pin wo Center Pad
+Standard SOIC8 pin wo Center Pad
+0
+8
+8
+BadgePiratesFootprint
+CR2032 TH Holder
+
+
+0
+2
+2
+BadgePiratesFootprint
+C_0805_2012Metric
+Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+BadgePiratesFootprint
+ESP-12E
+Wi-Fi Module, http://wiki.ai-thinker.com/_media/esp8266/docs/aithinker_esp_12f_datasheet_en.pdf
+Wi-Fi Module
+0
+22
+22
+BadgePiratesFootprint
+ESP32-S2-WROOM
+ESP32-S2-WROOM and ESP32-S2-WROOM-I: https://www.espressif.com/sites/default/files/documentation/esp32-s2-wroom_esp32-s2-wroom-i_datasheet_en.pdf
+ESP32-S2
+0
+51
+43
+BadgePiratesFootprint
+ESP32-S2-WROVER
+ESP32-S2-WROVER and ESP32-S2-WROVER-I: https://www.espressif.com/sites/default/files/documentation/esp32-s2-wrover_esp32-s2-wrover-i_datasheet_en.pdf
+ESP32-S2
+0
+51
+43
+BadgePiratesFootprint
+ESP32-S3-WROOM-1
+ESP32-S3-WROOM-1 is a powerful, generic Wi-Fi + Bluetooth LE MCU modules that have Dual core CPU , a rich set of peripherals, provides acceleration for neural network computing and signal processing workloads. They are an ideal choice for a wide variety of application scenarios related to AI + Internet of Things (AIoT), such as wake word detection and speech commands recognition , face detection and recognition, smart home, smart appliance, smart control panel, smart speaker etc.
+esp32-s3
+0
+49
+41
+BadgePiratesFootprint
+GT-USB-7002C
+
+
+0
+10
+7
+BadgePiratesFootprint
+Hole_3.5mm
+Mounting Hole 3.5mm
+mounting hole 3.5mm
+0
+1
+0
+BadgePiratesFootprint
+Hole_3mm_lapel_pin
+Lapel Pin 3mm Hole, 5.75 pad
+Lapel Pin 3mm Hole, 5.75 pad
+0
+1
+0
+BadgePiratesFootprint
+Hole_4.5mm
+Mounting Hole 4.5mm
+mounting hole 4.5mm
+0
+1
+0
+BadgePiratesFootprint
+Hole_5.5mm
+Mounting Hole 5.5mm
+mounting hole 5.5mm
+0
+1
+0
+BadgePiratesFootprint
+Keystone-54-MFG
+Through Hole, 1865 Side Clips
+Through Hole, 1865 Side Clips
+0
+3
+1
+BadgePiratesFootprint
+Keystone-1042-0
+18650 Plastic Battery Holder, Surface Mount
+18650 Plastic Battery Holder, Surface Mount
+0
+2
+2
+BadgePiratesFootprint
+LED_0807
+
+
+0
+2
+2
+BadgePiratesFootprint
+LED_1206
+LED SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+LED
+0
+2
+2
+BadgePiratesFootprint
+LED_COM-11821
+6 pin RGB LED NeoPixel
+6 pin RGB LED NeoPixel
+0
+6
+6
+BadgePiratesFootprint
+LED_D5.0mm
+LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf
+LED diameter 5.0mm 2 pins
+0
+2
+2
+BadgePiratesFootprint
+LED_Osram_Lx_P47F_D2mm_ReverseMount_Proper_Mask Only
+Reverse-mount LED, SMD, Mask removed
+LED ReverseMount Reverse
+0
+4
+2
+BadgePiratesFootprint
+LED_Osram_Lx_P47F_D2mm_ReverseMount_WHole
+OSRAM, reverse-mount LED, SMD, With a Hole through to Front
+LED ReverseMount Reverse
+0
+4
+2
+BadgePiratesFootprint
+LED_RGB_1210
+RGB LED 3.2x2.7mm http://www.avagotech.com/docs/AV02-0610EN
+LED 3227
+0
+4
+4
+BadgePiratesFootprint
+LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm
+https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf
+LED RGB NeoPixel
+0
+4
+4
+BadgePiratesFootprint
+LTC4054
+constant-voltage linear charger for single cell lithium-ion batteries
+Lipo charger
+0
+5
+5
+BadgePiratesFootprint
+MAX17048_TDFN
+MAX17048_TDFN FOOTPRINT
+DFN 0.5
+0
+9
+9
+BadgePiratesFootprint
+NE555DR
+D (R-PDSO-G8)
+Integrated Circuit
+0
+8
+8
+BadgePiratesFootprint
+NetTie_2
+
+
+0
+2
+2
+BadgePiratesFootprint
+PJ-320D Headphone
+
+
+0
+4
+4
+BadgePiratesFootprint
+PadHeader_1x02_P2.54mm_Vertical
+Through hole straight pin header, 1x02, 2.54mm pitch, single row
+Through hole pin header THT 1x02 2.54mm single row
+0
+2
+2
+BadgePiratesFootprint
+PanHeader_1x04_P2.54mm_Vertical
+Through hole straight pin header, 1x04, 2.54mm pitch, single row
+Through hole pin header THT 1x04 2.54mm single row
+0
+4
+4
+BadgePiratesFootprint
+PinHeader_1x02_P2.54mm_Vertical
+Through hole straight pin header, 1x02, 2.54mm pitch, single row
+Through hole pin header THT 1x02 2.54mm single row
+0
+2
+2
+BadgePiratesFootprint
+PinHeader_2x03_P2.54mm_Vertical
+Through hole straight pin header, 2x03, 2.54mm pitch, double rows
+Through hole pin header THT 2x03 2.54mm double row
+0
+6
+6
+BadgePiratesFootprint
+R_1206_3216Metric
+Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+resistor
+0
+2
+2
+BadgePiratesFootprint
+R_Array_Convex_4x0603
+Chip Resistor Network, ROHM MNR14 (see mnr_g.pdf)
+resistor array
+0
+8
+8
+BadgePiratesFootprint
+R_Box_L13.0mm_W4.0mm_P9.00mm
+Resistor, Box series, Radial, pin pitch=9.00mm, 2W, length*width=13.0*4.0mm^2, http://www.produktinfo.conrad.com/datenblaetter/425000-449999/443860-da-01-de-METALLBAND_WIDERSTAND_0_1_OHM_5W_5Pr.pdf
+Resistor Box series Radial pin pitch 9.00mm 2W length 13.0mm width 4.0mm
+0
+2
+2
+BadgePiratesFootprint
+RoundDisplay
+
+
+0
+7
+7
+BadgePiratesFootprint
+SF-MICRO-SD
+
+
+0
+12
+12
+BadgePiratesFootprint
+SMT-JUMPER_2_NC_TRACE_NO-SILK
+
+
+0
+2
+2
+BadgePiratesFootprint
+SMT-JUMPER_2_NO_NO-SILK
+
+
+0
+2
+2
+BadgePiratesFootprint
+SOIC-8-1EP_W3.9mm
+Standard SOIC8 pin with Center Pad
+Standard SOIC8 pin with Center Pad
+0
+9
+9
+BadgePiratesFootprint
+SOIC127P600X175-16N
+SO16
+Integrated Circuit
+0
+16
+16
+BadgePiratesFootprint
+SOT-23
+SOT, 3 Pin (https://www.jedec.org/system/files/docs/to-236h.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOT TO_SOT_SMD
+0
+3
+3
+BadgePiratesFootprint
+SOT-223
+Standard SOT-223 Footprint
+Standard SOT-223 Footprint
+0
+4
+4
+BadgePiratesFootprint
+SOT-223_2-4_Combined
+Standard SOT-223 Footprint
+Standard SOT-223 Footprint
+0
+4
+3
+BadgePiratesFootprint
+SP4T - CUS-14TB
+
+
+0
+10
+10
+BadgePiratesFootprint
+SSD1306-0.91-OLED-4pin-128x32
+
+
+0
+4
+4
+BadgePiratesFootprint
+SW-SMD_NIDEC_CUS-14TB
+
+
+0
+10
+10
+BadgePiratesFootprint
+SW_PUSH_6mm_H5mm
+tactile push button, 6x6mm e.g. PHAP33xx series, height=5mm
+tact sw push 6mm
+0
+4
+2
+BadgePiratesFootprint
+SW_SPDT_CK-JS102011SAQN
+Sub-miniature slide switch, right-angle, http://www.ckswitches.com/media/1422/js.pdf
+switch spdt
+0
+3
+3
+BadgePiratesFootprint
+SW_SPDT_PCM12
+Ultraminiature Surface Mount Slide Switch, right-angle, https://www.ckswitches.com/media/1424/pcm.pdf
+
+0
+7
+3
+BadgePiratesFootprint
+SW_SPST_B3S-1000
+Surface Mount Tactile Switch for High-Density Packaging
+Tactile Switch
+0
+4
+2
+BadgePiratesFootprint
+SW_SPST_TL3305C(small)
+https://www.e-switch.com/system/asset/product_line/data_sheet/213/TL3305.pdf
+TL3305 Series Tact Switch
+0
+4
+2
+BadgePiratesFootprint
+SW_Slide_1P2T_CK_TH
+CuK miniature slide switch, OS series, SPDT, https://www.ckswitches.com/media/1428/os.pdf
+switch SPDT
+0
+3
+3
+BadgePiratesFootprint
+Slot_6x4mm
+Slot Hole 6x4
+Slot Hole 6x4
+0
+1
+0
+BadgePiratesFootprint
+Slot_7x5mm
+Slot Hole 7x5
+Slot Hole 7x5
+0
+1
+0
+BadgePiratesFootprint
+Slot_12x5mm
+Slot Hole 12x5
+Slot Hole 12x5
+0
+1
+0
+BadgePiratesFootprint
+Switch_Tactile_SMD_B3U-1000P-BPVersion
+Switch Tactile SMB with Larger Pads for ease of Solder and Alighnment - https://lcsc.com/product-detail/Tactile-Switches_DGBZ-YTSC005A0152501B_C2689410.html
+Switch Tactile SMB with Larger Pads for ease of Solder and Alighnment
+0
+2
+2
+BadgePiratesFootprint
+TF-104_SDCard
+
+
+0
+10
+9
+BadgePiratesFootprint
+TYPE-C-31-M-14
+Korean Hroparts Elec, Power only USB connector supporting up to 3A
+
+0
+20
+17
+BadgePiratesFootprint
+TestPoint_Pad_D2.0mm x2
+SMD pad as test Point, diameter 2.0mm
+test point SMD pad
+0
+2
+2
+BadgePiratesFootprint
+TouchPad_10x10mm
+SMD rectangular pad as TouchPad, square 4.0mm side length
+SMD rectangular pad as TouchPad, square 4.0mm side length
+0
+1
+1
+BadgePiratesFootprint
+TouchPad_B.CU_19
+SMD rectangular pad as test Point, square 4.0mm side length
+test point SMD pad rectangle square
+0
+1
+1
+BadgePiratesFootprint
+TouchPad_F.CU_19
+SMD rectangular pad as test Point, square 4.0mm side length
+test point SMD pad rectangle square
+0
+1
+1
+BadgePiratesFootprint
+USB_A_CNCTech_1001-011-01101_Horizontal
+USB type A Plug, Horizontal, http://cnctech.us/pdfs/1001-011-01101.pdf
+USB-A
+0
+6
+5
+BadgePiratesFootprint
+USB_C_Receptical-Jing
+USB C with Mounting hole - https://www.lcsc.com/product-detail/USB-Connectors_G-Switch-GT-USB-7002C_C5117884.html
+USB C with Mounting hole
+0
+20
+17
+BadgePiratesFootprint
+USB_Micro-B_Wuerth
+USB Micro-B receptacle with Mounting Hole
+usb micro receptacle
+0
+9
+6
+BadgePiratesFootprint
+mouse-bite-2mm-slot
+
+
+0
+0
+0
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826
@@ -64945,6 +65498,20 @@ Mounting 4.5mm 9774100982
 0
 8
 1
+MouseSensor
+ADNS-5050
+
+
+0
+8
+8
+MouseSensor
+ADNS-9800
+
+
+0
+16
+16
 NetTie
 NetTie-2_SMD_Pad0.5mm
 Net tie, 2 pin, 0.5mm square SMD pads
@@ -84930,27 +85497,6 @@ Resistor Radial_Power series Radial pin pitch 7.37mm 10W length 16.1mm width 9mm
 0
 2
 2
-RickRabbit
-BGA100_ML-100-1_ADI
-
-ADIS16500AMLZ 
-0
-100
-100
-RickRabbit
-CUI_UJ2-BH-1-TH
-
-
-0
-6
-6
-RickRabbit
-logo
-
-
-0
-0
-0
 Rotary_Encoder
 RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm
 Alps rotary encoder, EC12E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
@@ -86680,6 +87226,13 @@ SAMTEC-TFM-107-02-X-DH
 0
 18
 18
+TClamps
+SAMTEC_FTSH-107-01-L-DV-K-A
+translated Allegro footprint
+
+0
+14
+14
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm
 Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
@@ -92609,24 +93162,1417 @@ varistor
 0
 2
 2
-mpcie
-mpcie-full-card
+ames
+1GroundVia
 
 
 0
-60
-52
-mpcie
-mpcie-half-card
+1
+0
+ames
+1GroundViaSmall
 
 
 0
-56
-52
-mpcie
-mpcie-socket
-
-mpci, pci, pci express
+1
 0
-60
-52
+ames
+1pad
+module 1 pin (ou trou mecanique de percage)
+DEV
+0
+1
+1
+ames
+1pad_th_jm
+module 1 pin
+Pad
+0
+1
+1
+ames
+2N2222A
+TO-18-3
+TO-18-3
+0
+3
+3
+ames
+5PinWire
+
+
+0
+5
+5
+ames
+7pinCircular
+
+
+0
+7
+7
+ames
+78SR
+Regulator Murata 78SR
+78SR
+0
+3
+3
+ames
+AE_SIL-2
+Connector 2 pins Ames KK
+CONN DEV
+0
+2
+2
+ames
+AE_SIL-3
+Connecteur 3 pins
+CONN DEV
+0
+3
+3
+ames
+AE_SIL-4
+Connector 4 pins Ames
+CONN DEV
+0
+4
+4
+ames
+AE_SIL-5
+Connector 5 pins Ames
+CONN DEV
+0
+5
+5
+ames
+AE_SIL-6
+Connecteur 6 pins
+CONN DEV
+0
+6
+6
+ames
+AE_SIL-8
+Connecteur 8 pins
+CONN DEV
+0
+8
+8
+ames
+AE_SIL-14
+Connecteur 14 pins
+CONN DEV LCD 14
+0
+14
+14
+ames
+AE_SIL-16
+Connecteur 16 pins
+CONN DEV LCD
+0
+16
+16
+ames
+Ames_Diode_0805
+Diode SMD in 0805 package
+smd diode
+0
+2
+2
+ames
+Ames_Diode_0805_Accel
+Diode SMD in 0805 package
+smd diode
+0
+2
+2
+ames
+Ames_Diode_0805_TextScan
+Diode SMD in 0805 package
+smd diode reverse
+0
+2
+2
+ames
+Ames_JST_SH_5
+
+
+0
+7
+5
+ames
+BNO055
+
+9DOF IMU
+0
+10
+10
+ames
+Bussman_RTMR_5
+
+
+0
+5
+5
+ames
+Buzzer_CEM1203
+
+
+0
+2
+2
+ames
+Buzzer_X80
+
+
+0
+2
+2
+ames
+C47E65
+CAPACITOR
+CAPACITOR
+0
+2
+2
+ames
+CERAMIC_1_AE
+
+
+0
+2
+2
+ames
+CONN-MINIFIT4RA
+
+
+0
+5
+4
+ames
+CONN-MINIFIT4_VERT
+
+
+0
+4
+4
+ames
+CONN-MINIFIT8_VERT
+
+
+0
+8
+8
+ames
+CONN3
+
+
+0
+3
+3
+ames
+CONN_PCI_EXPRESS_X4_64
+
+
+0
+66
+66
+ames
+CP_Elec_16mm
+SMT capacitor, aluminium electrolytic, 10x10.5
+
+0
+2
+2
+ames
+CWX813
+
+Crystal, XTAL, Connor Winfield
+0
+4
+4
+ames
+C_0805_handsoldering
+Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)
+capacitor 0805
+0
+2
+2
+ames
+C_1206_HS_Ames
+Capacitor SMD 1206, hand soldering
+capacitor 1206
+0
+2
+2
+ames
+Coilcraft_113-003-030
+
+
+0
+2
+2
+ames
+Conn_PCI_Express_Mini
+
+
+0
+62
+53
+ames
+Conxall_3-12
+
+
+0
+3
+3
+ames
+Conxall_4-16
+
+
+0
+4
+4
+ames
+Conxall_6-20
+
+
+0
+6
+6
+ames
+Conxall_9-20
+
+
+0
+9
+9
+ames
+Conxall_10-16
+
+
+0
+10
+10
+ames
+Conxall_10-16_Top_Mount
+
+
+0
+10
+10
+ames
+DCH010505
+Regulator Vfinity V7805
+V7805
+0
+4
+4
+ames
+DO214AA
+DO214AC PACKAGE. MONODIRECTIONAL.
+DO214AC PACKAGE. MONODIRECTIONAL.
+0
+2
+2
+ames
+DO214AC
+DO214AC PACKAGE. MONODIRECTIONAL.
+DO214AC PACKAGE. MONODIRECTIONAL.
+0
+2
+2
+ames
+DPAK3
+
+CMS DPACK
+0
+4
+3
+ames
+DUB_8_TI
+SMD DUB 8 TI R-PDSO-G8
+SMD DUB R-PDSO-G8
+0
+8
+8
+ames
+D_SMB_Standard_Rev
+Diode SMB Standard Rev
+Diode SMB Standard Rev
+0
+2
+2
+ames
+ECS-3225SMV
+
+
+0
+4
+4
+ames
+EE-SX1106
+
+
+0
+5
+5
+ames
+ESP-01
+ESP-01 WiFi module
+ESP-01 WiFi module
+0
+8
+8
+ames
+Fastrax_UC530_GPS
+
+
+0
+31
+31
+ames
+Fuse_TR5
+Fuse, TR5, Littlefuse, 370Series
+Fuse TR5/Littelfuse-370Series
+0
+2
+2
+ames
+HC-49_SMD
+Crystal HC-49 Vertical SMD
+Crystal Xtal
+0
+2
+2
+ames
+HTSSOP-24-1EP_4.4x6.5mm_Pitch0.65mm_ThermalPad
+20-Lead Plastic Thin Shrink Small Outline (ST)-4.4 mm Body [HTSSOP], with thermal pad with vias
+HTSSOP 0.65
+0
+42
+25
+ames
+Halo_N2
+Halo_N2 16 pin
+Halo_halo N2
+0
+16
+16
+ames
+Halo_N2_bigpads
+Halo_N2 16 pin
+Halo_halo N2 bigpads
+0
+16
+16
+ames
+Halo_N3
+Halo_N3 16 pin
+Halo_halo N3
+0
+16
+16
+ames
+Hi-Link_HLK-PM03
+
+
+0
+4
+4
+ames
+IC51-0204-602_Socket
+
+
+0
+24
+20
+ames
+IDC_Header_Straight_6pins
+6 pins through hole IDC header
+IDC header socket VASCH AVR ISP
+0
+6
+6
+ames
+JST_PH
+
+
+0
+4
+2
+ames
+JST_SH_BM06B-SRSS-TB_06x1.00mm_Straight_Reverse
+http://www.jst-mfg.com/product/pdf/eng/eSH.pdf
+connector jst sh reverse
+0
+8
+6
+ames
+JU_Tiny
+
+
+0
+2
+2
+ames
+JU_Tiny_3
+
+
+0
+3
+3
+ames
+LGA12_Ames_Bosch
+
+
+0
+12
+12
+ames
+LPS6235
+
+
+0
+10
+2
+ames
+L_Ames_12x12
+Inductor, Wuerth Elektronik, Wuerth_HCI-1335, 12.8mmx12.8mm
+inductor Wuerth hci smd
+0
+2
+2
+ames
+L_Ames_13x15_offset
+
+
+0
+2
+2
+ames
+M-G354PDH0
+
+
+0
+22
+20
+ames
+MOD54415
+
+
+0
+102
+100
+ames
+MOD54417
+
+
+0
+101
+100
+ames
+MSOP-PP
+MSOP-PP
+
+0
+9
+9
+ames
+MSS1210_Ames_Ind
+
+
+0
+2
+2
+ames
+Mill-Max-851-4pin
+
+
+0
+4
+4
+ames
+MountingHole
+
+
+0
+1
+1
+ames
+Nanofit_Wires_Only_Modified
+
+
+0
+5
+5
+ames
+Net-Tie
+
+
+0
+2
+2
+ames
+NetBurner5270
+
+
+0
+100
+100
+ames
+NetBurner5270_corrected
+
+
+0
+100
+100
+ames
+PCI-EXPRESS-64-EDGE
+
+
+0
+128
+64
+ames
+PLCC4-Osram-TOPLED
+MULTI TOPLED® RG
+MULTI TOPLED® RG
+0
+5
+2
+ames
+PLCC4-Osram-TOPLED-BackSide
+MULTI TOPLED® RG
+MULTI TOPLED® RG
+0
+5
+2
+ames
+PQMC3-S
+
+PQMC3-S, DC-DC Converter
+0
+7
+7
+ames
+PT78ST
+
+
+0
+5
+3
+ames
+Pin_Header_Straight_2x04_Pitch2.54mm
+Through hole straight pin header, 2x04, 2.54mm pitch, double rows
+Through hole pin header THT 2x04 2.54mm double row
+0
+8
+8
+ames
+PolyCasePM2414-AC
+
+
+0
+3
+3
+ames
+ProxSensorBreakout
+
+
+0
+8
+8
+ames
+RAYCHEM_2
+Raychem PolySwitch PTC 0.2" spacing
+Raychem PolySwitch PTC PolyFuse Fuse
+0
+2
+2
+ames
+RAYCHEM_2_OPT
+Raychem PolySwitch PTC 0.2" spacing
+Raychem PolySwitch PTC PolyFuse Fuse Optional
+0
+3
+3
+ames
+RAYCHEM_4
+Raychem PolySwitch PTC 0.4" spacing
+Raychem PolySwitch PTC PolyFuse Fuse
+0
+2
+2
+ames
+RAYCHEM_9
+Raychem PolySwitch PTC 10.5mm spacing
+Raychem PolySwitch PTC PolyFuse Fuse
+0
+2
+2
+ames
+RAYCHEM_300
+Raychem PolySwitch PTC 0.2" spacing
+Raychem PolySwitch PTC PolyFuse Fuse
+0
+2
+2
+ames
+RFD77402
+
+
+0
+12
+12
+ames
+RJ11C_VERT
+
+RJ11 RJ11C
+0
+6
+6
+ames
+RJ12_4POS_VERT
+
+RJ12
+0
+6
+6
+ames
+RJ12_6POS_VERT
+
+RJ12
+0
+8
+8
+ames
+RJ45_8_Vert
+
+RJ45
+0
+10
+9
+ames
+R_0805_Accel
+Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)
+resistor 0805
+0
+2
+2
+ames
+R_1206_HS_Ames
+Resistor SMD 1206, hand soldering
+resistor 1206
+0
+2
+2
+ames
+SDI1521
+
+1521 accelerometer
+0
+20
+20
+ames
+SD_Card_DM3CS_Hirose
+
+
+0
+13
+10
+ames
+SHT15
+
+
+0
+10
+8
+ames
+SIL-3-SolderBlob
+Connecteur 3 pins
+CONN DEV JUMPER SOLDER BLOB
+0
+3
+3
+ames
+SM1210
+
+CMS SM
+0
+2
+2
+ames
+SM1210_ames
+
+CMS SM
+0
+2
+2
+ames
+SMA
+DIODES INC SMA PACKAGE
+DIODES INC SMA PACKAGE
+0
+2
+2
+ames
+SO16_Ames_3232
+Module Small Outline
+ST3232CWR MAX3223EC
+0
+16
+16
+ames
+SO16_wide_or_narrow_Ames_3232
+Module Small Outline
+ST3232CWR MAX3223EC
+0
+16
+16
+ames
+SO16_wide_or_narrow_Ames_3232_paste
+Module Small Outline
+ST3232CWR MAX3223EC
+0
+32
+16
+ames
+SO20_Ames_TI_NS
+
+
+0
+20
+20
+ames
+SO24-Ames
+Module CMS SO 24 pins large
+CMS SOJ SO SOIC
+0
+24
+24
+ames
+SO28-Ames
+Module CMS SO 28 pins large
+CMS SOJ SO SOIC
+0
+28
+28
+ames
+SOIC-8-N
+Module Narrow CMS SOJ 8 pins large
+CMS SOJ
+0
+8
+8
+ames
+SOIC18-Ames
+
+
+0
+18
+18
+ames
+SOP-4
+SOP-4
+SOP-4
+0
+4
+4
+ames
+SOP-4_TLP183
+SOP-4_TLP183
+SOP-4 SOP-4_TLP183
+0
+4
+4
+ames
+SOP-8
+
+
+0
+8
+8
+ames
+SOP-8-therm
+
+
+0
+9
+8
+ames
+SOP-10_0.5MM
+
+
+0
+10
+10
+ames
+SOT-23EBC
+SOT-23, EBC
+SOT-23 EBC
+0
+3
+3
+ames
+SOT23GDS_Ames
+SOT-23
+SOT-23
+0
+3
+3
+ames
+SSOP28-Ames-FE1.1s
+SSOP 28 pins
+CMS SSOP SMD
+0
+28
+28
+ames
+SSOP28-Ames-FT232RL
+SSOP 28 pins
+CMS SSOP SMD
+0
+28
+28
+ames
+Small_Spring_TerminalBlock_06
+
+
+0
+12
+6
+ames
+TO-252-4_TabPinTab
+TO-252 / DPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO252/PG-TO252-5-11/
+DPAK TO-252 DPAK-5 TO-252-5
+0
+9
+5
+ames
+TO92-Ames
+Transistor TO92 brochage type BC237
+TR TO92
+0
+3
+3
+ames
+TO220_LM317_Ames
+Regulator LM317 TO 220
+TR TO220 DEV
+0
+4
+3
+ames
+TO220_LM317_TextScan
+Regulator LM317 TO 220
+TR TO220 DEV 
+0
+4
+3
+ames
+TO252-5-11
+Infineon 5-pin TO252 package for ITS428L2 Switch
+Infineon 5-pin TO252 package for ITS428L2 Switch
+0
+5
+5
+ames
+TO262_HEXFET_Ames
+TO263 Vertical
+TO263 TO-263
+0
+3
+3
+ames
+TO263_TI_Ames
+
+CMS DPACK
+0
+7
+5
+ames
+TSOP-6
+TSOP-6
+TSOP-6
+0
+6
+6
+ames
+TSR2
+Regulator Traco TSR2
+TSR2
+0
+3
+3
+ames
+TSSOP-14_4.4x5mm_Pitch0.65mm
+14-Lead Plastic Thin Shrink Small Outline (ST)-4.4 mm Body [TSSOP] (see Microchip Packaging Specification 00000049BS.pdf)
+SSOP 0.65
+0
+14
+14
+ames
+TexScanSwitch
+
+
+0
+4
+2
+ames
+USB_A_Vert
+
+
+0
+7
+4
+ames
+USB_A_Vert_shieldground
+
+
+0
+7
+4
+ames
+USB_B_Vert
+
+USB Vertical
+0
+5
+5
+ames
+V7805
+Regulator Vfinity V7805
+V7805
+0
+3
+3
+ames
+VCNL4200
+
+VCNL4200 Vishay
+0
+10
+10
+ames
+VICOR3623
+
+
+0
+10
+9
+ames
+VICOR_VE-200_REVERSED
+
+
+0
+15
+9
+ames
+VL53L1X
+
+
+0
+13
+12
+ames
+VLP8040_TDK
+
+
+0
+2
+2
+ames
+WAGO_255_2P
+
+WAGO series 255
+0
+4
+2
+ames
+bob4
+BOB 4
+BOB4 Video
+0
+44
+40
+cafebabe
+Cafebabe Backplate
+
+
+0
+0
+0
+cafebabe
+Cafebabe silks
+
+
+0
+0
+0
+cafebabe
+Cafebabe silkscreen
+
+
+0
+0
+0
+cafebabe
+CritForge
+
+
+0
+0
+0
+cafebabe
+EC11L1524E03_Rotary_Encoder
+
+
+0
+7
+5
+cafebabe
+Gazzew
+
+
+0
+0
+0
+cafebabe
+JustChip
+
+
+0
+0
+0
+cafebabe
+Keystone_1012_2AA_SMD_UE
+
+
+0
+4
+4
+cafebabe
+SK6812-E_Reverse
+
+
+0
+4
+4
+cafebabe
+SMD Spacer M2.5
+
+
+0
+1
+1
+cafebabe
+SOURCE FILE
+
+
+0
+0
+0
+cafebabe
+TF-104_SDCard
+
+
+0
+10
+8
+cafebabe
+TwitterSmaller
+
+
+0
+0
+0
+cafebabe
+UELogoAbove
+
+
+0
+0
+0
+cafebabe
+UELogoSmall
+
+
+0
+0
+0
+cnhardware
+DFN-3L-1x0.6
+
+
+0
+3
+3
+cnhardware
+DFN-6-2x2-SplitPad
+
+
+0
+8
+8
+cnhardware
+DFN-10-1.8x2.1-P0.4mm
+
+
+0
+10
+10
+cnhardware
+DFN1006
+
+
+0
+2
+2
+cnhardware
+DISPLAYPORT_MID_BOARD_DP-GD-120PWB_HDGC
+
+
+0
+24
+21
+cnhardware
+EPC2014C-Gan-Fet
+
+
+0
+5
+5
+cnhardware
+ESP32S2
+QFN, 56 Pin (http://www.cypress.com/file/416486/download#page=40), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
+0
+66
+57
+cnhardware
+FLEX15-0.3-HC-FPC-03-10-15RLTAG
+
+
+0
+17
+17
+cnhardware
+FPC-6P-_5mm-HC-FPC-05-09-6RLTAG
+
+
+0
+8
+8
+cnhardware
+GOERTEK-S08OB383-031-MemsMic
+
+
+0
+6
+6
+cnhardware
+GOERTEK_MIC_B4013AM423
+
+
+0
+2
+2
+cnhardware
+INGHAi-Microphone-4mm
+
+
+0
+2
+2
+cnhardware
+LC8812BC-3535RGBY
+
+
+0
+6
+6
+cnhardware
+MicroSD-C393941-SHOU-HAN-TF-PUSH
+SD card connector, top mount, SMT (http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F2041021%7FB%7Fpdf%7FEnglish%7FENG_CD_2041021_B_C_2041021_B.pdf%7F2041021-4)
+sd card
+0
+13
+11
+cnhardware
+OLED-RB0066E2801A-64x48-FULL
+
+
+0
+28
+28
+cnhardware
+OnSemi_XDFN4-1EP_1.0x1.0mm_EP0.52x0.52mm
+XDFN4 footprint (as found on the https://www.onsemi.com/pub/Collateral/NCP115-D.PDF)
+OnSemi XDFN4
+0
+5
+5
+cnhardware
+RB0091E1401A-OLED-128x32
+
+
+0
+14
+14
+cnhardware
+RB0091E1401A-OLED-128x32_FLIP
+
+
+0
+15
+15
+cnhardware
+RBO128128G-610
+
+
+0
+24
+24
+cnhardware
+SAW-SMD2016-2P
+
+
+0
+2
+2
+cnhardware
+SK68XX-EC15
+
+
+0
+4
+4
+cnhardware
+SM04B-SURS-TF(LF)(SN)-JST-MTR
+
+
+0
+6
+6
+cnhardware
+SZLEDCO-4020
+
+
+0
+4
+4
+cnhardware
+TS-1187A-B-A-B-TACTILE
+
+
+0
+4
+2
+cnhardware
+Touch_Teeth_5
+
+
+0
+6
+6
+cnhardware
+USB_C_MOD_Receptacle_HRO_TYPE-C-31-M-12
+USB Type-C receptacle for USB 2.0 and PD, http://www.krhro.com/uploads/soft/180320/1-1P320120243.pdf
+usb usb-c 2.0 pd
+0
+20
+17
+cnhardware
+USB_C_Receptacle_HRO_TYPE-C-31-M-12
+USB Type-C receptacle for USB 2.0 and PD, http://www.krhro.com/uploads/soft/180320/1-1P320120243.pdf
+usb usb-c 2.0 pd
+0
+16
+13
+cnhardware
+USON8-LINE(2x3)
+
+
+0
+9
+9
+cnhardware
+WDFN-6_1.6x1.6mm_P0.5mm
+
+
+0
+6
+6
+cnhardware
+WS2816-2121
+
+
+0
+6
+6
+cnhardware
+WS2816B-2020
+
+
+0
+6
+6
+cnhardware
+XCB-FPC-0.5K-QX-5PWB
+
+
+0
+7
+7
+cnhardware
+XCB-FPC-DS-05-0.5mm
+
+
+0
+7
+6
+cnhardware
+XCB-FPC-DS-06-0.5mm
+
+
+0
+8
+7
+cnhardware
+XL-1010RGBC-WS812B
+
+
+0
+4
+4
+cnhardware
+XUNPU_FPC-05F-24PH15
+Hirose FH12, FFC/FPC connector, FH12-24S-0.5SH, 24 Pins per row (https://www.hirose.com/product/en/products/FH12/FH12-24S-0.5SH(55)/), generated with kicad-footprint-generator
+connector Hirose FH12 horizontal
+0
+26
+26
+cnhardware
+touchpad_10x6.5mm_retircle
+
+
+0
+1
+1
+cnhardware
+touchpad_12.5x7mm_retircle
+
+
+0
+1
+1
+cnhardware
+xdfn-reg
+XDFN4 footprint (as found on the https://www.onsemi.com/pub/Collateral/NCP115-D.PDF)
+OnSemi XDFN4
+0
+5
+5

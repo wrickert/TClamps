@@ -1446,44 +1446,6 @@
         )
       )
     )
-    (symbol "gkl_power:VUSB" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "VUSB" (at 0 3.556 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "VUSB_0_1"
-        (polyline
-          (pts
-            (xy -1.27 1.905)
-            (xy 1.27 1.905)
-          )
-          (stroke (width 0.3048) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 1.905)
-          )
-          (stroke (width 0) (type solid))
-          (fill (type none))
-        )
-      )
-      (symbol "VUSB_1_1"
-        (pin power_in line (at 0 0 90) (length 0) hide
-          (name "VUSB" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
     (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -6.35 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -1624,52 +1586,6 @@
       (symbol "VDDA_1_1"
         (pin power_in line (at 0 0 90) (length 0) hide
           (name "VDDA" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "power:VSS" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "VSS" (at 0 3.81 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "global power" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"VSS\"" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "VSS_0_1"
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.762 1.27)
-            (xy -0.762 1.27)
-            (xy 0 2.54)
-            (xy 0.762 1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type outline))
-        )
-      )
-      (symbol "VSS_1_1"
-        (pin power_in line (at 0 0 90) (length 0) hide
-          (name "VSS" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
       )
@@ -1967,10 +1883,6 @@
     (stroke (width 0) (type default))
     (uuid 7ee26178-3c91-4123-bab8-cd55928dc24a)
   )
-  (wire (pts (xy 66.04 25.4) (xy 66.04 21.59))
-    (stroke (width 0) (type default))
-    (uuid 8247d275-0bf2-4354-b664-3583cce78953)
-  )
   (wire (pts (xy 120.65 87.63) (xy 125.73 87.63))
     (stroke (width 0) (type default))
     (uuid 8c390355-b24d-4ae2-b27c-3724009a544e)
@@ -2238,6 +2150,13 @@
     (uuid 671f4aa5-2f75-4e75-a2eb-12021052581b)
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 225.3729 109.22 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
+  (global_label "VBUS" (shape input) (at 66.04 25.4 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 73a2b64e-ed70-40d2-99aa-9a140ecaea34)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 73.3517 25.4794 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
   (global_label "VBUS" (shape input) (at 154.94 134.62 0) (fields_autoplaced)
@@ -2553,6 +2472,36 @@
     )
   )
 
+  (symbol (lib_id "power:GND") (at 33.02 71.12 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 212d3e7e-4f47-4736-94a4-12cab3b3e822)
+    (property "Reference" "#PWR02" (at 33.02 77.47 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 33.02 76.2 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 33.02 71.12 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 33.02 71.12 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid db8b37f9-a31a-4cc6-9547-fe70754e8921))
+    (instances
+      (project "CH32VClamp"
+        (path "/3c272da4-3810-4d6a-a6aa-4e1cad4b6a87"
+          (reference "#PWR02") (unit 1)
+        )
+      )
+      (project "esp32s2-funprog"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+          (reference "#PWR0108") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:VDD") (at 138.43 53.34 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 288dcef5-a5e6-4513-8200-9aa3deaa2a6c)
@@ -2608,6 +2557,36 @@
       (project "esp32s2-funprog"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR0119") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 25.4 71.12 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 2d40cf25-31c5-41e2-8668-c458e5cc3ff6)
+    (property "Reference" "#PWR01" (at 25.4 77.47 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 25.4 76.2 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 25.4 71.12 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 25.4 71.12 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 8320b73c-4c9c-4fae-ae25-f203e5191b99))
+    (instances
+      (project "CH32VClamp"
+        (path "/3c272da4-3810-4d6a-a6aa-4e1cad4b6a87"
+          (reference "#PWR01") (unit 1)
+        )
+      )
+      (project "esp32s2-funprog"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+          (reference "#PWR0108") (unit 1)
         )
       )
     )
@@ -2727,46 +2706,6 @@
       (project "esp32s2-funprog"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR0117") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:VSS") (at 33.02 71.12 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 41145e50-5fa6-4f69-85dd-69150fc8b660)
-    (property "Reference" "#PWR02" (at 33.02 67.31 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "VSS" (at 31.75 76.2 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "" (at 33.02 71.12 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 33.02 71.12 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 97966ac4-aebf-4f5d-840b-77d98ce5e1ff))
-    (instances
-      (project "CH32VClamp"
-        (path "/3c272da4-3810-4d6a-a6aa-4e1cad4b6a87"
-          (reference "#PWR02") (unit 1)
-        )
-      )
-      (project "ReflowReview"
-        (path "/91523ecc-b630-476b-a03e-91f84cd87a20"
-          (reference "#PWR021") (unit 1)
-        )
-      )
-      (project "SerialClamp"
-        (path "/ad13f272-13a7-4209-a78a-add31e33c82c"
-          (reference "#PWR03") (unit 1)
-        )
-      )
-      (project "AccelAssemblyTester"
-        (path "/b10930b8-2990-46a8-9d87-f0faa73d38e1"
-          (reference "#PWR018") (unit 1)
         )
       )
     )
@@ -3760,41 +3699,31 @@
     )
   )
 
-  (symbol (lib_id "power:VSS") (at 25.4 71.12 180) (unit 1)
+  (symbol (lib_id "power:GND") (at 67.31 38.1 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
-    (uuid bf64fe25-86bb-40c0-993c-173780b15fe0)
-    (property "Reference" "#PWR01" (at 25.4 67.31 0)
+    (uuid bf429a56-3ae2-4520-848b-9722d38f0496)
+    (property "Reference" "#PWR04" (at 73.66 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "VSS" (at 24.13 76.2 0)
-      (effects (font (size 1.27 1.27)) (justify right))
+    (property "Value" "GND" (at 72.39 38.1 90)
+      (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 25.4 71.12 0)
+    (property "Footprint" "" (at 67.31 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 25.4 71.12 0)
+    (property "Datasheet" "" (at 67.31 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 65f090af-75b6-4c5e-9775-182259b0076b))
+    (pin "1" (uuid 909d0a65-ce2e-4fe0-8280-0460b33af0f7))
     (instances
       (project "CH32VClamp"
         (path "/3c272da4-3810-4d6a-a6aa-4e1cad4b6a87"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
-      (project "ReflowReview"
-        (path "/91523ecc-b630-476b-a03e-91f84cd87a20"
-          (reference "#PWR01") (unit 1)
-        )
-      )
-      (project "SerialClamp"
-        (path "/ad13f272-13a7-4209-a78a-add31e33c82c"
-          (reference "#PWR02") (unit 1)
-        )
-      )
-      (project "AccelAssemblyTester"
-        (path "/b10930b8-2990-46a8-9d87-f0faa73d38e1"
-          (reference "#PWR018") (unit 1)
+      (project "esp32s2-funprog"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+          (reference "#PWR0108") (unit 1)
         )
       )
     )
@@ -3907,46 +3836,6 @@
       (project "CH32VClamp"
         (path "/3c272da4-3810-4d6a-a6aa-4e1cad4b6a87"
           (reference "C3") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:VSS") (at 67.31 38.1 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid c2682cb2-d3c0-47d0-afa5-c1354e6bba85)
-    (property "Reference" "#PWR04" (at 63.5 38.1 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "VSS" (at 67.31 35.56 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (at 67.31 38.1 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 67.31 38.1 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid e3990fdd-a9cc-4cd7-98e7-dd90443da139))
-    (instances
-      (project "CH32VClamp"
-        (path "/3c272da4-3810-4d6a-a6aa-4e1cad4b6a87"
-          (reference "#PWR04") (unit 1)
-        )
-      )
-      (project "ReflowReview"
-        (path "/91523ecc-b630-476b-a03e-91f84cd87a20"
-          (reference "#PWR02") (unit 1)
-        )
-      )
-      (project "SerialClamp"
-        (path "/ad13f272-13a7-4209-a78a-add31e33c82c"
-          (reference "#PWR05") (unit 1)
-        )
-      )
-      (project "AccelAssemblyTester"
-        (path "/b10930b8-2990-46a8-9d87-f0faa73d38e1"
-          (reference "#PWR036") (unit 1)
         )
       )
     )
@@ -4347,46 +4236,6 @@
     )
   )
 
-  (symbol (lib_id "gkl_power:VUSB") (at 66.04 21.59 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid e282c7ed-7425-4af1-a188-6a23f2f1d9a9)
-    (property "Reference" "#PWR03" (at 66.04 25.4 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "VUSB" (at 66.04 17.78 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 66.04 21.59 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 66.04 21.59 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid d0017b17-e8e3-4bef-a741-69966b516eb1))
-    (instances
-      (project "CH32VClamp"
-        (path "/3c272da4-3810-4d6a-a6aa-4e1cad4b6a87"
-          (reference "#PWR03") (unit 1)
-        )
-      )
-      (project "ReflowReview"
-        (path "/91523ecc-b630-476b-a03e-91f84cd87a20"
-          (reference "#PWR020") (unit 1)
-        )
-      )
-      (project "SerialClamp"
-        (path "/ad13f272-13a7-4209-a78a-add31e33c82c"
-          (reference "#PWR04") (unit 1)
-        )
-      )
-      (project "AccelAssemblyTester"
-        (path "/b10930b8-2990-46a8-9d87-f0faa73d38e1"
-          (reference "#PWR017") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Connector_Generic:Conn_01x05") (at 26.67 111.76 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid efd4da38-f903-46c8-a8ea-fcd22e5ac482)
@@ -4402,11 +4251,11 @@
     (property "Datasheet" "~" (at 26.67 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid 0a21360f-015d-429a-9f73-59e7e4a5086f))
+    (pin "2" (uuid bc5df001-cd80-4873-90d7-82701ae31bbc))
+    (pin "3" (uuid 1142c778-748e-4daa-8e1b-380b363bbd21))
     (pin "4" (uuid 8331427a-8b34-4dcf-b05d-64db8267e886))
     (pin "5" (uuid 99c6984e-548d-43ec-9e29-d5aaf06e38bc))
-    (pin "3" (uuid 1142c778-748e-4daa-8e1b-380b363bbd21))
-    (pin "2" (uuid bc5df001-cd80-4873-90d7-82701ae31bbc))
-    (pin "1" (uuid 0a21360f-015d-429a-9f73-59e7e4a5086f))
     (instances
       (project "CH32VClamp"
         (path "/3c272da4-3810-4d6a-a6aa-4e1cad4b6a87"
